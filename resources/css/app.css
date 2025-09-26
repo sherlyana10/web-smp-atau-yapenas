@@ -1,0 +1,11 @@
+/* Font nyaman */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.hero-bg > div {
+  flex: 1;
+  min-width: 0;
+}
+
+
+

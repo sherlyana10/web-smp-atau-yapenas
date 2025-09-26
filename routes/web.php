@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+// Halaman utama
+Route::get('/', function () {
+    return view('home'); // file resources/views/home.blade.php
+});
+
+// Kalau mau ada halaman tambahan, bisa ditambah seperti ini:
+Route::get('/tentang', function () {
+    return view('tentang');
+});
+
+Route::get('/kontak', function () {
+    return view('kontak');
+});
